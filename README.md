@@ -15,7 +15,9 @@ Usage:
 
 1.  **Command Execution**: The command retrieves stored WiFi passwords on the machine.
 2.  **Replace Webhook URL**: Replace the webhook URL in the code with your own self-hosted webhook domain.
-3.  **Format**: Passwords are formatted into XML and sent to your hosted webhook.
+   ![{D1DFEB56-6B8A-4C92-A57E-D39A78F6C043}](https://github.com/user-attachments/assets/7ae5a30d-59dc-4549-960d-750fba6fb3f4)
+
+4.  **Format**: Passwords are formatted into XML and sent to your hosted webhook.
 
 ### Important Notes:
 
